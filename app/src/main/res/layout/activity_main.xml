@@ -48,8 +48,9 @@
         android:text="JOGUE BASQUETE COM A SUA GALERA"
         android:textColor="#FFFFFF"
         android:textSize="12sp"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        tools:layout_editor_absoluteX="86dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
         android:id="@+id/textView3"
