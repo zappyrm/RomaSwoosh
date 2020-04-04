@@ -10,11 +10,10 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        getStartedBtn.setOnClickListener {
 
+        getStartedBtn.setOnClickListener {
             val ligaIntent = Intent(this, LigaActivity::class.java)
             startActivity(ligaIntent)
-
         }
     }
 }

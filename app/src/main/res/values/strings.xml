@@ -12,4 +12,8 @@
     <string name="encontre_um_time_em_sua_cedade_e_domine_a_liga">Encontre um time em sua cedade e domine a liga.</string>
     <string name="jogue_basquete_com_a_sua_galera">JOGUE BASQUETE COM A SUA GALERA</string>
     <string name="entre_no_jogo">ENTRE NO JOGO</string>
+    <string name="eu_sou">Eu sou:</string>
+    <string name="iniciante">INICIANTE</string>
+    <string name="experiente">EXPERIENTE</string>
+    <string name="fim">FIM</string>
 </resources>
