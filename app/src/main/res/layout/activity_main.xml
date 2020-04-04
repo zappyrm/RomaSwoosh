@@ -15,7 +15,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/welcomescreenbg" />
+        app:srcCompat="@drawable/welcomescreenbg"
+        android:contentDescription="@string/background_image" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -25,7 +26,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/swooshlogo" />
+        app:srcCompat="@drawable/swooshlogo"
+        android:contentDescription="@string/logo_image" />
 
     <TextView
         android:id="@+id/textView"
@@ -33,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
         android:fontFamily="@font/montserrat"
-        android:text="ENTRE NO JOGO"
+        android:text="@string/entre_no_jogo"
         android:textColor="#FFFFFF"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -45,7 +47,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/montserrat"
-        android:text="JOGUE BASQUETE COM A SUA GALERA"
+        android:text="@string/jogue_basquete_com_a_sua_galera"
         android:textColor="#FFFFFF"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -59,14 +61,14 @@
         android:layout_marginTop="32dp"
         android:fontFamily="@font/montserrat"
         android:singleLine="false"
-        android:text="Encontre um time em sua cedade e domine a liga."
+        android:text="@string/encontre_um_time_em_sua_cedade_e_domine_a_liga"
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/getStartedBtn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -74,7 +76,7 @@
         android:layout_marginBottom="16dp"
         android:background="@drawable/swoosh_button"
         android:fontFamily="@font/montserrat"
-        android:text="ENTRAR"
+        android:text="@string/entrar"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">RomaSwoosh</string>
+    <string name="todo">TODO</string>
+    <string name="escolha_a_liga">Escolha a liga</string>
+    <string name="mulheres">Mulheres</string>
+    <string name="unissex">Unissex</string>
+    <string name="pr_ximo">PRÓXIMO</string>
+    <string name="homens">Homens</string>
+    <string name="logo_image">logo image</string>
+    <string name="background_image">background image</string>
+    <string name="entrar">ENTRAR</string>
+    <string name="encontre_um_time_em_sua_cedade_e_domine_a_liga">Encontre um time em sua cedade e domine a liga.</string>
+    <string name="jogue_basquete_com_a_sua_galera">JOGUE BASQUETE COM A SUA GALERA</string>
+    <string name="entre_no_jogo">ENTRE NO JOGO</string>
 </resources>

@@ -15,7 +15,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/desiredleaguebg" />
+        app:srcCompat="@drawable/desiredleaguebg"
+        android:contentDescription="@string/todo" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -25,7 +26,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/swooshlogo" />
+        app:srcCompat="@drawable/swooshlogo"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/textView4"
@@ -33,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:fontFamily="@font/montserrat"
-        android:text="Escolha a liga"
+        android:text="@string/escolha_a_liga"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -54,10 +56,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/swoosh_toggle"
-            android:text="Homens"
+            android:text="@string/homens"
             android:textColor="#FFFFFF"
-            android:textOff="Homens"
-            android:textOn="Homens" />
+            android:textOff="@string/homens"
+            android:textOn="@string/homens" />
 
         <ToggleButton
             android:id="@+id/toggleButton2"
@@ -66,20 +68,20 @@
             android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
             android:background="@drawable/swoosh_toggle"
-            android:text="Mulheres"
+            android:text="@string/mulheres"
             android:textColor="#FFFFFF"
-            android:textOff="Mulheres"
-            android:textOn="Mulheres" />
+            android:textOff="@string/mulheres"
+            android:textOn="@string/mulheres" />
 
         <ToggleButton
             android:id="@+id/toggleButton3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/swoosh_toggle"
-            android:text="Unissex"
+            android:text="@string/unissex"
             android:textColor="#FFFFFF"
-            android:textOff="Unissex"
-            android:textOn="Unissex" />
+            android:textOff="@string/unissex"
+            android:textOn="@string/unissex" />
     </LinearLayout>
 
     <Button
@@ -91,7 +93,7 @@
         android:layout_marginBottom="16dp"
         android:background="@drawable/swoosh_button"
         android:fontFamily="@font/montserrat"
-        android:text="PRÓXIMO"
+        android:text="@string/pr_ximo"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
