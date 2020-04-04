@@ -1,9 +1,11 @@
-package com.example.romaswoosh
+package Controller
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import Utilities.EXTRA_LIGA
+import com.example.romaswoosh.R
 import kotlinx.android.synthetic.main.activity_liga.*
 
 class LigaActivity : BaseActivity() {
@@ -20,14 +22,14 @@ class LigaActivity : BaseActivity() {
         womensLigaBtn.isChecked = false
         unissexLigaBtn.isChecked = false
 
-        selectedLiga = "mens"
+        selectedLiga = "homens"
     }
     fun onWomensClicked(view: View){
 
         mensLigaBtn.isChecked = false
         unissexLigaBtn.isChecked = false
 
-        selectedLiga = "womens"
+        selectedLiga = "mulheres"
     }
     fun onUnissexClicked(view: View){
 

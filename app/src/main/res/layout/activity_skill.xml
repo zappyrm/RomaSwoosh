@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SkillActivity">
+    tools:context="Controller.SkillActivity">
 
 
     <ImageView
@@ -53,24 +53,26 @@
         app:layout_constraintTop_toBottomOf="@+id/textView5">
 
         <ToggleButton
-            android:id="@+id/toggleButton4"
+            android:id="@+id/inicianteSkillBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:layout_weight="1"
             android:background="@drawable/swoosh_toggle"
+            android:onClick="onInicianteClicked"
             android:text="@string/iniciante"
             android:textColor="#FFFFFF"
             android:textOff="@string/iniciante"
             android:textOn="@string/iniciante" />
 
         <ToggleButton
-            android:id="@+id/toggleButton5"
+            android:id="@+id/experienteSkillBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_weight="1"
             android:background="@drawable/swoosh_toggle"
+            android:onClick="onExperienteClicked"
             android:text="@string/experiente"
             android:textColor="#FFFFFF"
             android:textOff="@string/experiente"
@@ -78,7 +80,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/skillFimBtn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -86,6 +88,7 @@
         android:layout_marginBottom="16dp"
         android:background="@drawable/swoosh_button"
         android:fontFamily="@font/montserrat"
+        android:onClick="onSkillFimClicked"
         android:text="@string/fim"
         android:textColor="#FFFFFF"
         android:textSize="20sp"

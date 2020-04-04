@@ -16,4 +16,5 @@
     <string name="iniciante">INICIANTE</string>
     <string name="experiente">EXPERIENTE</string>
     <string name="fim">FIM</string>
+    <string name="search_liga">Procurando por uma liga unissex iniciante para você...</string>
 </resources>
